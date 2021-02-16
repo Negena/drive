@@ -18,18 +18,17 @@ body{
   background: url('./assets/Img_02.png');
   position: absolute;
   height: 140px;
-  width: 1500%;
+  width: 500%;
   bottom: 0;
 
 }
 .car{
-  background: url('./assets/Img_06.png');
   position: absolute;
   bottom: 2.5%;
   left: 14%;
   height: 100px;
   width: 100%;
-  background-repeat: no-repeat;
+
 
 }
 

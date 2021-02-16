@@ -3,7 +3,7 @@ $(function(){
   let car = $(".car")
   let img = $('.car img')
   let fara = true
-  const cars = ['./assets/Img_06.png' ,'./assets/Img_05.png']
+  const cars = ['./assets/Img_06.png' , './assets/Img_05.png']
 
 //move
   $(document).on("keypress", function(e){
@@ -17,11 +17,11 @@ $(function(){
     if(e.which == 119){
       if(fara){
         fara = false
-        img.attr('src', cars[0])
+        img.attr('src', cars[1])
       }
       else {
         fara = true
-        img.attr('src', cars[1])
+        img.attr("src", cars[0])
       }
     }
   })
